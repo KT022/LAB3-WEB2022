@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAB 3</title>
+  <link rel="icon" href="./img/avatar.png" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <main class="w-[1280px] mx-auto">
+    <!-- menu header  -->
+    <div class="w-[1280px] mx-auto mt-5 flex justify-between">
+      <div class="logo">
+        <h1 class="text-3xl font-bold">Fugo.</h1>
+      </div>
+      <div class="">
+        <ul class="flex text-xl">
+          <li class="px-4 py-3 font-medium">Home</li>
+          <li class="px-4 py-3 font-medium">Products</li>
+          <li class="px-4 py-3 font-medium">About Us</li>
+          <li class="px-4 py-3 font-medium">Contact Us</li>
+        </ul>
+      </div>
+
+      <div class="flex">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-4" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+
+        <input type="button" value="Sign in" class="rounded-md py-2 px-3 border-2 bg-white border-red-600 mx-4" />
+        <input type="button" value="Sign up"
+          class="rounded-md py-2 px-3 border-2 bg-red-600 border-red-600 text-white" />
+      </div>
+    </div>
+
+    <!-- banner -->
+    <div class="w-[1280px] mx-auto mt-[80px] grid grid-cols-[664px,616px]">
+      <div class="flex flex-col w-[664px] pr-[80px]">
+        <p class="px-4 py-2 bg-red-200 max-w-[130px] font-bold text-red-600 mb-8">
+          Quality Food
+        </p>
+        <h1 class="font-bold text-7xl max-w-lg leading-[90px]">
+          Fastest <span class="text-red-600">Delivery</span> & Easy
+          <span class="text-red-600">Pickup</span>
+        </h1>
+        <p class="text-lg mt-8">
+          Best cooks and best delivery guys all at your service. Hot tasty food
+          will reach you in 60 minutes.
+        </p>
+        <form action="" class="flex w-[29em] border-2 border-red-600 rounded-md mt-8 bg-red-600">
+          <input type="text" placeholder="Enter your delivery location"
+            class="px-4 rounded-l-md w-full text-[15px] focus:outline-none border-none py-4" />
+          <button type="submit" class="bg-red-600 text-white pl-5 rounded-r-[4px] pr-9 border-none h-[55px]">
+            Discovery
+          </button>
+        </form>
+      </div>
+
+      <!-- picture  -->
+      <div class="h-[80%] bg-pink-200 relative mt-[140px] rounded-3xl">
+        <img src="./img/avatar.png" alt="" class="absolute w-[80%] h-[560px] z-10 bottom-10 right-[60px]" />
+        <div class="absolute bg-red-400 w-[80%] h-[80%] right-[60px] top-10 rounded-2xl z-5"></div>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="text-5xl font-bold mt-[80px] text-center">
+      Our Popular Dishes
+    </div>
+    <div class="text-base font-normal text-center px-[400px] mt-6">
+      <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
+    </div>
+
+    <!-- Table for products -->
+    <div class="grid grid-cols-3 mt-5 gap-x-7 gap-y-6">
+      <div class="">
+        <img class="pro rounded-2xl" src="./img/pro1.png" alt="">
+        <p class="text-lg text-red-600 font-semibold mt-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+        <div class="flex justify-between my-5">
+          <div class="flex items-center">
+            <img src="./img/time-icon.png" alt="" class="h-4 mr-2 mb-0 pb-0">
+            <p>30 Minutes</p>
+          </div>
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+            </svg>
+            <p class="mr-[200px]">Snack</p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img class="pro rounded-2xl" src="./img/pro2.png" alt="">
+        <p class="text-lg text-red-600 font-semibold mt-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+        <div class="flex justify-between my-5">
+          <div class="flex items-center">
+            <img src="./img/time-icon.png" alt="" class="h-4 mr-2 mb-0 pb-0">
+            <p>30 Minutes</p>
+          </div>
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+            </svg>
+            <p class="mr-[200px]">Snack</p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img class="pro rounded-2xl" src="./img/pro3.png" alt="">
+        <p class="text-lg text-red-600 font-semibold mt-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+        <div class="flex justify-between my-5">
+          <div class="flex items-center">
+            <img src="./img/time-icon.png" alt="" class="h-4 mr-2 mb-0 pb-0">
+            <p>30 Minutes</p>
+          </div>
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+            </svg>
+            <p class="mr-[200px]">Snack</p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img class="pro rounded-2xl" src="./img/pro2.png" alt="">
+        <p class="text-lg text-red-600 font-semibold mt-4">Fresh Lime Roasted Salmon</p>
+        <div class="flex justify-between my-5">
+          <div class="flex items-center">
+            <img src="./img/time-icon.png" alt="" class="h-4 mr-2 mb-0 pb-0">
+            <p>30 Minutes</p>
+          </div>
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+            </svg>
+            <p class="mr-[200px]">Fish</p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img class="pro rounded-2xl" src="./img/pro1.png" alt="">
+        <p class="text-lg text-red-600 font-semibold mt-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+        <div class="flex justify-between my-5">
+          <div class="flex items-center">
+            <img src="./img/time-icon.png" alt="" class="h-4 mr-2 mb-0 pb-0">
+            <p>30 Minutes</p>
+          </div>
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+            </svg>
+            <p class="mr-[200px]">Snack</p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img class="pro rounded-2xl" src="./img/pro3.png" alt="">
+        <p class="text-lg text-red-600 font-semibold mt-4">Fresh Lime Roasted Salmon</p>
+        <div class="flex justify-between my-5">
+          <div class="flex items-center">
+            <img src="./img/time-icon.png" alt="" class="h-4 mr-2 mb-0 pb-0">
+            <p>30 Minutes</p>
+          </div>
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+            </svg>
+            <p class="mr-[200px]">Snack</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+    <!-- categories -->
+    <div class="flex justify-between w-full grid-sp mt-14">
+      <p class="uppercase text-5xl font-bold">categories</p>
+      <button class="border-red-600 max-h-[80px] text-lg text-red-600 p-4 border-2">View all categories</button>
+    </div>
+
+    <!-- table food -->
+    <div class="grid grid-cols-6 w-full mt-10">
+      <div class="">
+        <img src="./img/food1.png" alt="" class="mx-auto">
+          <p class="text-center text-[18px] font-semibold my-3">Chocolate</p>
+        </img>
+      </div>
+      <div class="">
+        <img src="./img/food2.png" alt="" class="mx-auto">
+          <p class="text-center text-[18px] font-semibold my-3">Dessert</p>
+        </img>
+      </div>
+      <div class="">
+        <img src="./img/food3.png" alt="" class="mx-auto">
+          <p class="text-center text-[18px] font-semibold my-3"> Lunch</p>
+        </img>
+      </div>
+      <div class="">
+        <img src="./img/food4.png" alt="" class="mx-auto">
+          <p class="text-center text-[18px] font-semibold my-3">Meat</p>
+        </img>
+      </div>
+      <div class="">
+        <img src="./img/food5.png" alt="" class="mx-auto">
+          <p class="text-center text-[18px] font-semibold my-3"> Vegan</p>
+        </img>
+      </div>
+      <div class="">
+        <img src="./img/food6.png" alt="" class="mx-auto">
+          <p class="text-center text-[18px] font-semibold my-3">Breakfast</p>
+        </img>
+      </div>
+    </div>
+    <p class="text-5xl font-bold mt-10 text-center">Contact us</p>
+    <!-- table form  -->
+    <div class="grid grid-cols-2 gap-x-6 gap-y-4 mt-8 mb-3">
+      <div class="">
+        <label>NAME</label>
+        <input type="text" name="" id="" placeholder="Enter your name" class="border-[2px] border-gray-200 p-2 rounded-md w-full mt-3">
+      </div>
+
+      <div class="">
+        <label>EMAIL ADDRESS</label>
+        <input type="text" name="" id="" placeholder="Enter your name" class="border-[2px] border-gray-200 p-2 rounded-md w-full mt-3">
+      </div>
+
+      <div class="">
+        <label>SUBJECT</label>
+        <input type="text" name="" id="" placeholder="Enter subject" class="border-[2px] border-gray-200 p-2 rounded-md w-full mt-3">
+      </div>
+
+      <div class="">
+        <label>ENQUIRY TYPES</label>
+        <input type="text" name="" id="" placeholder="Enter your name" class="border-[2px] border-gray-200 p-2 rounded-md w-full mt-3">
+      </div>
+
+      <div class="col-span-2">
+        <label for="">Messages</label>
+      </div>
+      <div class="col-span-2">
+        <input class="w-full pb-[120px] pl-2 border-[2px] pt-2 border-gray-200 rounded-md" type="text" placeholder="Enter your message">
+      </div>
+      <div class="col-span-2 flex justify-center my-3">
+        <button class="uppercase bg-black py-4 px-10 font-semibold text-white rounded-xl">submit</button>
+      </div>
+    </div>
+    <div class="w-full flex justify-between border-t-2 border-gray-200">
+      <p class="text-3xl font-bold">Fugo.</p>
+      <ul class="flex">
+        <li class="p-3">Home</li>
+        <li class="p-3">Products</li>
+        <li class="p-3">About us</li>
+        <li class="p-3">Contact us</li>
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>
